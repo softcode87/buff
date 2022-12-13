@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.home{
+    background-color: aquamarine;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
