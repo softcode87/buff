@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mobileheader h2{
+    font-size: 30px;
+    font-weight: bolder;
+
+    color: #024A59;
+    text-align: center;
+    padding: 25px;
+
+}
+.mobileapp h1{
+    color: #024A59;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 20px;
+}
+.mobileapp p{
+    font-size: 20px;
+    color: rgb(175, 8, 8);
+    padding: 10px;
+    width: 500px;
+    word-spacing: 3px;
+    display: none;
+}
+.mobileapp:hover p{
+    display: block;
+}
+.mobileapp1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.mobileapp2{
+    display: flex;
+}
+span{
+    color: red;
+}
+button{
+    font-size: 20px;
+    font-weight: bolder;
+    width: 180px;
+    color: rgb(247, 23, 7);
+    background-color: #024A59;
+    border-radius: 35px;
+    padding: 5px;
+    margin-top: 50px;
+}
+button:hover{
+    color: white;
+    background-color: #07c6ec;
+    font-style: italic;
+    border: transparent;
+}
+.android{
+    border: 2px solid red;
+}
+.apple{
+    border: 2px solid red;
+    margin-right: 10px;
+
+}
+.webapps{
+    border: 2px solid red;
+    margin-right: 10px;
+
+}
+.reactnative{
+    border: 2px solid red;
+    margin-right: 10px;
+
+}
+.uiux{
+    border: 2px solid red;
+    margin-right: 10px;
+
+}
+.maintenance{
+    border: 2px solid red;
+    margin-right: 10px;
+
+}
