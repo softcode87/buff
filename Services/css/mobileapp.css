@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+}
 .mobileheader h2{
     font-size: 30px;
     font-weight: bolder;
@@ -11,8 +14,11 @@
     padding: 25px;
 
 }
+.mobileapp{
+    position: static;
+}
 .mobileapp h1{
-    color: #024A59;
+    color: whitesmoke;
     font-size: 25px;
     font-weight: bolder;
     padding: 20px;
@@ -25,15 +31,13 @@
     word-spacing: 3px;
     display: none;
 }
-.mobileapp:hover p{
+/*.mobileapp:hover p{
     display: block;
-}
+}*/
 .mobileapp1{
-    display: flex;
     margin-bottom: 10px;
 }
 .mobileapp2{
-    display: flex;
 }
 span{
     color: red;
@@ -47,6 +51,7 @@ button{
     border-radius: 35px;
     padding: 5px;
     margin-top: 50px;
+
 }
 button:hover{
     color: white;
@@ -56,29 +61,123 @@ button:hover{
 }
 .android{
     border: 2px solid red;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 100px;
+    background-color: #cf0f0f;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+.android:hover{
+    background-color: #024A59;
 }
 .apple{
     border: 2px solid red;
     margin-right: 10px;
+    width: 400px;
+    margin-top: 30px;
+    height: 100px;
+    background-color: #cf0f0f;
+    margin-left: 200px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius:20%;
+    animation-name: anime;
+    animation-duration: 4s;
+  
 
+}
+.apple:hover{
+    background-color: #024A59;
 }
 .webapps{
     border: 2px solid red;
     margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 100px;
+    background-color: #cf0f0f;
+    width: 400px;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 
+  
+
+}
+.webapps:hover{
+    background-color: #024A59;
 }
 .reactnative{
     border: 2px solid red;
-    margin-right: 10px;
+    width: 400px;
+    margin-top: 30px;
+    height: 100px;
+    background-color: #cf0f0f;
+    margin-left: 200px;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    animation-name: anime;
+    animation-duration: 4s;
+  
 
+
+}
+.reactnative:hover{
+    background-color: #024A59;
 }
 .uiux{
     border: 2px solid red;
     margin-right: 10px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 100px;
+    background-color: #cf0f0f;
+    border-bottom-right-radius:20%;
+    border-bottom-left-radius:20%;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 
+  
+
+
+
+}
+.uiux:hover{
+    background-color: #024A59;
 }
 .maintenance{
+   margin-top: 30px;
     border: 2px solid red;
     margin-right: 10px;
+    margin-left: 200px;
+    width: 400px;
+    height: 100px;
+    background-color: #cf0f0f;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    animation-name: anime;
+  animation-duration: 4s;
 
 }
+.maintenance:hover{
+    background-color: #024A59;, 
+}
+.display{
+    background-color: black;
+    color: white;
+    height: 1000px;
+}
+@keyframes anime {
+    from {background-color: #cf0f0f;}
+    to {background-color: #024A59;}
+  }
