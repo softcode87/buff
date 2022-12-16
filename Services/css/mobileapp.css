@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     display: flex;
@@ -15,7 +16,8 @@ body{
 
 }
 .mobileapp{
-    position: static;
+    background: linear-gradient(red,#024A59, red );
+    background-size: cover;
 }
 .mobileapp h1{
     color: whitesmoke;
@@ -40,7 +42,7 @@ body{
 .mobileapp2{
 }
 span{
-    color: red;
+    color: rgb(12, 9, 9);
 }
 button{
     font-size: 20px;
