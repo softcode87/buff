@@ -10,14 +10,15 @@ body{
     font-size: 30px;
     font-weight: bolder;
 
-    color: #024A59;
+    color: red;
     text-align: center;
     padding: 25px;
 
 }
 .mobileapp{
-    background: linear-gradient(rgb(151, 14, 14),#024A59, rgb(238, 148, 148));
+    background: linear-gradient(to right,#024A59,rgb(151, 14, 14));
     background-size: cover;
+    padding: 0;
 }
 .mobileapp h1{
     color: whitesmoke;
@@ -37,12 +38,12 @@ body{
     display: block;
 }*/
 .mobileapp1{
-    margin-bottom: 10px;
+   /* margin-bottom: 10px;*/
 }
 .mobileapp2{
 }
 span{
-    color: rgb(12, 9, 9);
+    color: #23b1ce;
 }
 button{
     font-size: 20px;
@@ -52,131 +53,153 @@ button{
     background-color: #024A59;
     border-radius: 35px;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 10px;
 
 }
 button:hover{
     color: white;
-    background-color: #07c6ec;
+    background-color: transparent;
     font-style: italic;
     border: transparent;
 }
+.icon{
+    width: 50px;
+    background-image: url(../pages/images/icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    display: none;
+}
+.icon:hover{
+    transform: rotate(-180deg);
+}
+.android img{
+  width: 40px;
+  object-fit: cover;
+}
 .android{
-    border: 2px solid red;
     width: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 200px;
-    height: 100px;
-    background-color: #cf0f0f;
+    height: 60px;
+    text-align: center;
     border-bottom-left-radius:20%;
     border-bottom-right-radius:20%;
-    animation-name: anime;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-
+    display: flex;
+    justify-content: space-evenly;
 }
 .android:hover{
     background-color: #024A59;
 }
+.android:hover .icon{
+    display: block;
+}
+.icon:hover .display{
+    display: block;
+}
 .apple{
-    border: 2px solid red;
     margin-right: 10px;
     width: 400px;
-    margin-top: 30px;
-    height: 100px;
-    background-color: #cf0f0f;
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 60px;
+    text-align: center;
+   /* background-color: #cf0f0f;*/
     margin-left: 200px;
     border-top-right-radius: 20%;
     border-bottom-right-radius: 20%;
     border-bottom-left-radius:20%;
-    animation-name: anime;
-    animation-duration: 4s;
-  
+    display: flex;
+    justify-content: space-evenly;
 
 }
 .apple:hover{
     background-color: #024A59;
 }
+.apple:hover .icon{
+    display: block;
+}
 .webapps{
-    border: 2px solid red;
     margin-right: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 200px;
-    height: 100px;
-    background-color: #cf0f0f;
+    height: 80px;
+    text-align: center;
+    object-fit: cover;
     width: 400px;
     border-bottom-left-radius:20%;
     border-bottom-right-radius:20%;
-    animation-name: anime;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-
-  
+    display: flex;
+    justify-content: space-evenly;
 
 }
 .webapps:hover{
     background-color: #024A59;
 }
+.webapps:hover .icon{
+    display: block;
+}
 .reactnative{
-    border: 2px solid red;
     width: 400px;
-    margin-top: 30px;
-    height: 100px;
-    background-color: #cf0f0f;
+    margin-top: 10px;
+    height: 60px;
+    text-align: center;
+
     margin-left: 200px;
     border-bottom-left-radius:20%;
     border-bottom-right-radius:20%;
-    animation-name: anime;
-    animation-duration: 4s;
-  
-
-
+    display: flex;
+    justify-content: space-evenly;
 }
 .reactnative:hover{
     background-color: #024A59;
 }
+.reactnative:hover .icon{
+    display: block;
+}
 .uiux{
-    border: 2px solid red;
     margin-right: 10px;
     width: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 200px;
-    height: 100px;
-    background-color: #cf0f0f;
+    height: 60px;
+    text-align: center;
     border-bottom-right-radius:20%;
     border-bottom-left-radius:20%;
-    animation-name: anime;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-
-  
-
-
+    display: flex;
+    justify-content: space-evenly;
 
 }
 .uiux:hover{
     background-color: #024A59;
 }
+.uiux:hover .icon{
+    display: block;
+}
 .maintenance{
-   margin-top: 30px;
-    border: 2px solid red;
+   margin-top: 10px;
     margin-right: 10px;
+    color: antiquewhite;
     margin-left: 200px;
     width: 400px;
-    height: 100px;
-    background-color: #cf0f0f;
+    height: 60px;
+    text-align: center;
+
     border-bottom-left-radius:20%;
     border-bottom-right-radius:20%;
-    animation-name: anime;
-  animation-duration: 4s;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 .maintenance:hover{
     background-color: #024A59;, 
 }
+.maintenance:hover .icon{
+    display: block;
+}
 .display{
-    background-color: rgb(235, 84, 57);
-    color: white;
+    display: none;
+    color: rgb(207, 30, 30);
     height: 1000px;
     float: right;
 }
@@ -185,10 +208,12 @@ button:hover{
     to {background-color: #024A59;}
   }
   .androi{
+
   }
   .androi h1{
     padding: 30px;
     text-align: center;
+
   }
   .androi p{
     width: 700px;
