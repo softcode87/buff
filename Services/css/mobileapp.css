@@ -16,7 +16,7 @@ body{
 
 }
 .mobileapp{
-    background: linear-gradient(red,#024A59, red );
+    background: linear-gradient(rgb(151, 14, 14),#024A59, rgb(238, 148, 148));
     background-size: cover;
 }
 .mobileapp h1{
@@ -175,11 +175,32 @@ button:hover{
     background-color: #024A59;, 
 }
 .display{
-    background-color: black;
+    background-color: rgb(235, 84, 57);
     color: white;
     height: 1000px;
+    float: right;
 }
 @keyframes anime {
     from {background-color: #cf0f0f;}
     to {background-color: #024A59;}
+  }
+  .androi{
+  }
+  .androi h1{
+    padding: 30px;
+    text-align: center;
+  }
+  .androi p{
+    width: 700px;
+    color: #024A59;
+    font-size: 27px;
+    text-align: center;
+  }
+
+  img{
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    padding: 30px;
+    padding-left: 60px;
   }
