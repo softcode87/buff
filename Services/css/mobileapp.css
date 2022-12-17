@@ -94,7 +94,7 @@ button:hover{
 .android:hover .icon{
     display: block;
 }
-.icon:hover .display{
+.icon::hover .display{
     display: block;
 }
 .apple{
@@ -115,6 +115,7 @@ button:hover{
 }
 .apple:hover{
     background-color: #024A59;
+    opacity: ;
 }
 .apple:hover .icon{
     display: block;
