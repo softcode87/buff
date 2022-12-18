@@ -73,7 +73,7 @@ button:hover{
 .icon:hover{
     transform: rotate(-180deg);
 }
-.sidedisplay:hover .androi{
+.icon:hover + .sidedisplay{
     display: block;
 }
 .android img{
@@ -209,7 +209,6 @@ button:hover{
     to {background-color: #024A59;}
   }
   .androi{
-    display: none;
   }
   .androi h1{
     padding: 30px;
