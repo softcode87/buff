@@ -62,9 +62,6 @@ button:hover{
     font-style: italic;
     border: transparent;
 }
-button:hover .androi{
-    display: block;
-}
 .icon{
     width: 50px;
     background-image: url(../pages/images/icon.png);
