@@ -6,8 +6,124 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/mobileapp.css">
     <script>
-        function present(){
-            document.getElementById("ads").innerHTML= display.style.display.block
+        function showContentA() {
+            let android = document.getElementById('android');
+            android.style.display='block';
+
+             apple = document.getElementById('apple');
+            apple.style.display='none';
+
+            support = document.getElementById('support');
+            support.style.display = 'none';
+
+            uiux = document.getElementById('ui/ux');
+            uiux.style.display = 'none';
+
+            reactnative = document.getElementById('reactnative');
+            reactnative.style.display = 'none';
+
+            webapps = document.getElementById('webapps');
+            webapps.style.display = 'none';  
+
+        }
+        function showContentB(){
+            let apple = document.getElementById('apple');
+            apple.style.display='block';
+
+            android = document.getElementById('android');
+            android.style.display='none';
+
+            support = document.getElementById('support');
+            support.style.display = 'none';
+
+            uiux = document.getElementById('ui/ux');
+            uiux.style.display = 'none';
+
+            reactnative = document.getElementById('reactnative');
+            reactnative.style.display = 'none';
+
+            webapps = document.getElementById('webapps');
+            webapps.style.display = 'none';  
+
+        }
+        function showContentC(){
+            let webapps = document.getElementById('webapps');
+            webapps.style.display = 'block';
+
+            apple = document.getElementById('apple');
+            apple.style.display='none';
+
+            support = document.getElementById('support');
+            support.style.display = 'none';
+
+            uiux = document.getElementById('ui/ux');
+            uiux.style.display = 'none';
+
+            reactnative = document.getElementById('reactnative');
+            reactnative.style.display = 'none';
+
+            android = document.getElementById('android');
+            android.style.display='none';
+
+
+        }
+        function showContentD(){
+            let reactnative = document.getElementById('reactnative');
+            reactnative.style.display = 'block';
+
+            android = document.getElementById('android');
+            android.style.display='none';
+
+            apple = document.getElementById('apple');
+            apple.style.display='none';
+
+            webapps = document.getElementById('webapps');
+            webapps.style.display = 'none';
+
+            support = document.getElementById('support');
+            support.style.display = 'none';
+
+            uiux = document.getElementById('ui/ux');
+            uiux.style.display = 'none';
+        }
+        function showContentE(){
+            let uiux = document.getElementById('ui/ux');
+            uiux.style.display = 'block';
+
+            reactnative = document.getElementById('reactnative');
+            reactnative.style.display = 'none';
+
+            android = document.getElementById('android');
+            android.style.display='none';
+
+            apple = document.getElementById('apple');
+            apple.style.display='none';
+
+            webapps = document.getElementById('webapps');
+            webapps.style.display = 'none';  
+
+            support = document.getElementById('support');
+            support.style.display = 'none';
+        }
+        function showContentF(){
+            let support = document.getElementById('support');
+            support.style.display = 'block';
+
+            uiux = document.getElementById('ui/ux');
+            uiux.style.display = 'none';
+
+            reactnative = document.getElementById('reactnative');
+            reactnative.style.display = 'none';
+
+            android = document.getElementById('android');
+            android.style.display='none';
+
+            apple = document.getElementById('apple');
+            apple.style.display='none';
+
+            webapps = document.getElementById('webapps');
+            webapps.style.display = 'none';  
+
         }
     </script>
 </head>
@@ -20,17 +136,18 @@
         <div class="mobileapp1">
             <div class="android">
                 <h1>Android App Development</h1>
-                <p>Bufflone is a leading Android App Development company in UK and Africa. 
-                    We offer our renowned Android App Development Services that are growth-driven and fulfill your business growth. 
-                    Our team consists of experienced developers who have all the right tools, resources, 
-                    and know-how to deliver market-leading Android solutions.</p>
-                    <div onclick="" class="icon">
-                        
+                    <p id="android"  >Bufflone is a leading Android App Development company in UK and Africa. 
+                        We offer our renowned Android App Development Services that are growth-driven and fulfill your business growth. 
+                        Our team consists of experienced developers who have all the right tools, resources, 
+                        and know-how to deliver market-leading Android solutions.</p>
+    
+                    <div onclick="showContentA()" class="icon">
+                        <img src="../pages/images/icon.png">
                     </div>
             </div>
             <div class="apple">
                 <h1>iPhone App Development</h1>
-                <p>As a market-leading iOS app development company, Bufflone enables the business to 
+                <p id="apple">As a market-leading iOS app development company, Bufflone enables the business to 
                     achieve the success they dream of, with our innovative iOS development services. 
                     In this ever-changing market, we deliver amazing development services that fulfill 
                     your business demand while also engaging potential customers.
@@ -38,7 +155,7 @@
                     and driving compound growth. If you are looking for data-driven iOS development solutions, 
                     our team of highly experienced developers can deliver just that.
                     </p>
-                    <div onclick="" class="icon">
+                    <div onclick="showContentB()" class="icon">
 
                     </div>
 
@@ -46,11 +163,11 @@
             </div>
             <div class="webapps">
                 <h1>Progressive Web Apps Development</h1>
-                <p>The best Progressive Web App Development Company delivering solutions that never disappoint.
+                <p id="webapps">The best Progressive Web App Development Company delivering solutions that never disappoint.
                     Progressive Web Applications are the future of web apps. With native-like performance and all the benefits of conventional web apps, progressive web application carries the best of both worlds. And when it comes to Progressive Web Application development services, we are the best.
                     Bufflone as a leading Progressive Web Applications development company has what it takes to deliver lighting fast, interactive, and attractive solutions. With our Progressive Web Applications, you can take your business to new heights of success and make record-breaking revenue. Sounds too good to be true? This is just the beginning.
                     </p>
-                    <div class="icon">
+                    <div onclick="showContentC()" class="icon">
 
                     </div>
 
@@ -61,20 +178,20 @@
         <div class="mobileapp2">
             <div class="reactnative">
                 <h1>React Native Development</h1>
-                <p>Delivering Stellar, highly functional, and alluring UI Designs using React Native. As a leading react native app Development Company, Bufflone delivers high-performing and pleasant to look at React Native UI solutions. We understand the importance of a beautiful user interface in making a successful mobile app or Progressive Web Applications.
+                <p id="reactnative">Delivering Stellar, highly functional, and alluring UI Designs using React Native. As a leading react native app Development Company, Bufflone delivers high-performing and pleasant to look at React Native UI solutions. We understand the importance of a beautiful user interface in making a successful mobile app or Progressive Web Applications.
                     So, if you are someone who is looking for stellar react native developers in the Africa, UK and USA, Bufflone is here to help you. We have the required experience and resources needed to deliver an attractive user interface using react-native.
                     </p>
-                    <div class="icon">
+                    <div onclick="showContentD()" class="icon">
 
                     </div>
 
 
             </div>
-            <div class="uiux">
+            <div  class="uiux">
                 <h1>UI/UX Design</h1>
-                <p>A UI/UX Design Company that creates aesthetic, responsive, captivating designs for people. Bufflone is a UI/UX design Firm in UK with its main branch in Uganda that is driven by stellar creativity and some of the best minds in the fields from Africa. Africa is full of talents. Bufflone is here to expose you to those talents you never imagined. Our team works to create designs that attract and engage a potential customer base. As a UI/UX Design Company that has been to the best place in the market, we ensure designs that are second to none. Our UI/UX design solutions help you reach your business goal while being aesthetically pleasing and responsive.
+                <p id="ui/ux">A UI/UX Design Company that creates aesthetic, responsive, captivating designs for people. Bufflone is a UI/UX design Firm in UK with its main branch in Uganda that is driven by stellar creativity and some of the best minds in the fields from Africa. Africa is full of talents. Bufflone is here to expose you to those talents you never imagined. Our team works to create designs that attract and engage a potential customer base. As a UI/UX Design Company that has been to the best place in the market, we ensure designs that are second to none. Our UI/UX design solutions help you reach your business goal while being aesthetically pleasing and responsive.
                 </p>
-                <div class="icon">
+                <div onclick="showContentE()" class="icon">
 
                 </div>
 
@@ -82,10 +199,10 @@
             </div>
             <div class="maintenance">
                 <h1>Maintenance and Support</h1>
-                <p>Why do most of the new apps fail in the market? Because like everything else, mobile apps require maintenance and support. So, if you want to make sure your app outshines and outlasts the competition, Bufflone’s application maintenance and support services can help you.
+                <p id="support">Why do most of the new apps fail in the market? Because like everything else, mobile apps require maintenance and support. So, if you want to make sure your app outshines and outlasts the competition, Bufflone’s application maintenance and support services can help you.
                     Why choose our application development and maintenance support? Being one of the best application support companies, our services stand out from the rest. With our expertise in IT support and maintenance, we can help you reach the top of the market.
                     </p>
-                    <div class="icon">
+                    <div onclick="showContentF()" class="icon">
 
                     </div>
             </div>
@@ -93,7 +210,7 @@
         </div>
         <button>Let's Talk</button>
     </section>
-    <section class="side">
+    <section class="side" style="display: none;">
         <div class="sidedisplay">
             <div id="ads" class="androi">
                 <h1>Android App Development</h1>

@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
 }
 .mobileheader h2{
     font-size: 30px;
@@ -19,12 +18,15 @@ body{
     background: linear-gradient(to right,#024A59, #1c95ad);
     background-size: cover;
     padding: 0;
+    position: relative;
 }
+
 .mobileapp h1{
     color: whitesmoke;
     font-size: 25px;
     font-weight: bolder;
     padding: 20px;
+    align-items: center;
 }
 .mobileapp p{
     font-size: 20px;
@@ -33,10 +35,11 @@ body{
     width: 500px;
     word-spacing: 3px;
     display: none;
+    position: absolute;
+    left: 600px;
+    background: #23b1ce;
+    background-size:6vmax;
 }
-/*.mobileapp:hover p{
-    display: block;
-}*/
 .mobileapp1{
    /* margin-bottom: 10px;*/
 }
@@ -62,26 +65,13 @@ button:hover{
     font-style: italic;
     border: transparent;
 }
-.icon{
-    width: 50px;
-    background-image: url(../pages/images/icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 20px;
-    display: none;
-}
-.icon:hover{
-    transform: rotate(-180deg);
-}
-.icon:hover + .sidedisplay{
-    display: block;
-}
+
 .android img{
   width: 40px;
   object-fit: cover;
 }
 .android{
-    width: 400px;
+    width: 600px;
     margin-top: 10px;
     margin-left: 200px;
     height: 60px;
@@ -90,11 +80,29 @@ button:hover{
     border-bottom-right-radius:20%;
     display: flex;
     justify-content: space-evenly;
+    position: relative;
 }
 .android:hover{
     background-color: #024A59;
+    
 }
 .android:hover .icon{
+    display: block;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-image: url(../pages/images/icon.png);
+    background-position: center;
+    display: none;
+}
+.icon:hover{
+    cursor: pointer;
+    display: block;
+    rotate: -90deg;
+    white-space: nowrap;
+}
+.icon:hover .side{
     display: block;
 }
 .apple{
@@ -207,6 +215,10 @@ button:hover{
 @keyframes anime {
     from {background-color: #cf0f0f;}
     to {background-color: #024A59;}
+  }
+  .side{
+    display: none;
+    position: absolute;
   }
   .androi{
   }
